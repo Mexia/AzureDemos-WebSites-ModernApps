@@ -8,11 +8,12 @@ Original ChirpyR Author: Sumit Maitra [@sumitkm](http://www.twitter.com/sumitkm)
 
 # Steps #
 1.   Create new WebSite with Database.
-2.   Provision new Azure SQL Database.
-3.   Set up Git publishing.
-4.   Navigate to solution location on local disk.
-5.   git init
-6.   git add .
-7.   git commit –m “initial commit”
-8.   git remote add azure <GIT_URI_HERE>
-9.   git push azure master
+2.   Provision new Azure SQL Database server and database.
+3.   Update the 2 connection strings in the MVC4 projects web.config to consume the Azure SQL Database created in the above step.
+4.   Set up Git publishing.
+5.   Navigate to solution location on local disk.
+6.   `git init`
+7.   `git add .`
+8.   `git commit -m "initial commit"`
+9.   `git remote add azure <GIT_URI_HERE>`
+10.   `git push azure master`
